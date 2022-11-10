@@ -5,9 +5,9 @@ module ch.makery.address.completetutov2 {
         requires javafx.base;
 
 
-        opens ch.makery.address.completetutov2 to javafx.fxml;
-        exports ch.makery.address.completetutov2;
+        opens com.github.alexeses to javafx.fxml;
+        exports com.github.alexeses;
 
-        opens ch.makery.address.completetutov2.view to javafx.fxml;
-        exports ch.makery.address.completetutov2.view;
+        opens com.github.alexeses.controllers to javafx.fxml;
+        exports com.github.alexeses.controllers;
 }
