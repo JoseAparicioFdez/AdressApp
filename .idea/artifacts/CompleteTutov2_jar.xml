@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CompleteTutov2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CompleteTutov2_jar</output-path>
+    <root id="archive" name="CompleteTutov2.jar">
+      <element id="module-output" name="CompleteTutov2" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/17.0.2/javafx-fxml-17.0.2-mac.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/17.0.2/javafx-controls-17.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/17.0.2/javafx-controls-17.0.2-mac.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/18/javafx-graphics-18-mac.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/18/javafx-base-18-mac.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/18/javafx-base-18.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/18/javafx-graphics-18.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/17.0.2/javafx-fxml-17.0.2.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:17.0.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:mac:17.0.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:17.0.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:mac:17.0.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:18" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:mac:18" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:18" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:mac:18" />
+    </root>
+  </artifact>
+</component>

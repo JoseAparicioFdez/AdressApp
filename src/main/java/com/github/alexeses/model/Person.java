@@ -1,13 +1,10 @@
 package com.github.alexeses.model;
 
-import java.time.LocalDate;
+import com.github.alexeses.util.LocalAdapter;
+import javafx.beans.property.*;
 
-import javafx.beans.property.IntegerProperty;
-import javafx.beans.property.ObjectProperty;
-import javafx.beans.property.SimpleIntegerProperty;
-import javafx.beans.property.SimpleObjectProperty;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import java.time.LocalDate;
 
 public class Person {
 
@@ -102,6 +99,7 @@ public class Person {
         return city;
     }
 
+    @XmlJavaTypeAdapter(LocalAdapter.class)
     public LocalDate getBirthday() {
         return birthday.get();
     }
